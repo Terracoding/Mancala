@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	0402732911A99CB900F28535 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0402731F11A998BA00F28535 /* board.png */;
+	};
+	0402732A11A99CB900F28535 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0402732211A99ADD00F28535 /* pit.png */;
+	};
+	0402FF9711CCD1360011C0FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 048A3FB511AFD4FE002898F8 /* Help.m */;
+		name = "Help.m: 152";
+		rLen = 0;
+		rLoc = 4305;
+		rType = 0;
+		vrLen = 1732;
+		vrLoc = 1414;
+	};
+	0402FF9A11CCD1360011C0FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 049CDC9711AC41B600172C65 /* MultiPlayerGame.m */;
+		name = "MultiPlayerGame.m: 297";
+		rLen = 0;
+		rLoc = 9328;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 7678;
+	};
+	0402FFA011CCD29B0011C0FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04DD1E7311AEF15F00ADC20F /* Options.h */;
+		name = "Options.h: 9";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 264;
+		vrLoc = 0;
+	};
+	0402FFA111CCD29B0011C0FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28042007108E984D000629CD /* RootViewController.h */;
+		name = "RootViewController.h: 14";
+		rLen = 0;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 0;
+	};
+	0402FFA211CCD29B0011C0FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04A75631119DD1F100FF4D29 /* KalaGameState.m */;
+		name = "KalaGameState.m: 17";
+		rLen = 63;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 1042;
+		vrLoc = 36;
+	};
+	0402FFA311CCD29B0011C0FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28042008108E984D000629CD /* RootViewController.m */;
+		name = "RootViewController.m: 45";
+		rLen = 0;
+		rLoc = 896;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 0;
+	};
+	0402FFA411CCD29B0011C0FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 046F771D119DD698000DD634 /* SinglePlayerGame.m */;
+		name = "SinglePlayerGame.m: 40";
+		rLen = 0;
+		rLoc = 1021;
+		rType = 0;
+		vrLen = 2260;
+		vrLoc = 185;
+	};
+	0402FFA511CCD29B0011C0FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 046F771C119DD698000DD634 /* SinglePlayerGame.h */;
+		name = "SinglePlayerGame.h: 37";
+		rLen = 20;
+		rLoc = 758;
+		rType = 0;
+		vrLen = 912;
+		vrLoc = 206;
+	};
+	0402FFA611CCD29B0011C0FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04A75632119DD1F100FF4D29 /* RandomPlayer.h */;
+		name = "RandomPlayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	04618E8311D7EC3E008DCFA8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04A75630119DD1F100FF4D29 /* KalaGameState.h */;
+		name = "KalaGameState.h: 35";
+		rLen = 20;
+		rLoc = 1069;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 0;
+	};
+	04618E8411D7EC3E008DCFA8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04A75630119DD1F100FF4D29 /* KalaGameState.h */;
+		name = "KalaGameState.h: 29";
+		rLen = 0;
+		rLoc = 755;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 0;
+	};
+	046F771C119DD698000DD634 /* SinglePlayerGame.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1054, 728}}";
+			sepNavSelRange = "{758, 20}";
+			sepNavVisRange = "{206, 912}";
+		};
+	};
+	046F771D119DD698000DD634 /* SinglePlayerGame.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1054, 5577}}";
+			sepNavSelRange = "{1021, 0}";
+			sepNavVisRange = "{185, 2260}";
+			sepNavWindowFrame = "{{15, 209}, {1052, 564}}";
+		};
+	};
+	046F77F2119DE06D000DD634 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Kalah_iPadAppDelegate.h */;
+		name = "Kalah_iPadAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 507;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 0;
+	};
+	048A3FB411AFD4FE002898F8 /* Help.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 805}}";
+			sepNavSelRange = "{208, 0}";
+			sepNavVisRange = "{0, 218}";
+		};
+	};
+	048A3FB511AFD4FE002898F8 /* Help.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 3055}}";
+			sepNavSelRange = "{4305, 0}";
+			sepNavVisRange = "{1414, 1732}";
+		};
+	};
+	048A3FDC11AFD677002898F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04DD1E7411AEF15F00ADC20F /* Options.m */;
+		name = "Options.m: 71";
+		rLen = 180;
+		rLoc = 1381;
+		rType = 0;
+		vrLen = 1607;
+		vrLoc = 995;
+	};
+	048A3FE411AFD6C3002898F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 048A3FB411AFD4FE002898F8 /* Help.h */;
+		name = "Help.h: 13";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 218;
+		vrLoc = 0;
+	};
+	049CDC6911AC3C4D00172C65 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kalah_iPad-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/Mac/Documents/SVN/iphone/trunk/Kalah-iPad/Kalah_iPad-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	049CDC9611AC41B600172C65 /* MultiPlayerGame.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 780}}";
+			sepNavSelRange = "{749, 0}";
+			sepNavVisRange = "{0, 1163}";
+		};
+	};
+	049CDC9711AC41B600172C65 /* MultiPlayerGame.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1846, 6071}}";
+			sepNavSelRange = "{9328, 0}";
+			sepNavVisRange = "{7678, 712}";
+		};
+	};
+	049CDCBF11AC439500172C65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 049CDC9611AC41B600172C65 /* MultiPlayerGame.h */;
+		name = "MultiPlayerGame.h: 38";
+		rLen = 0;
+		rLoc = 749;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 0;
+	};
+	04A75613119DD19500FF4D29 /* Kalah-iPad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Kalah-iPad";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	04A75626119DD1A100FF4D29 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	04A75627119DD1A100FF4D29 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	04A75630119DD1F100FF4D29 /* KalaGameState.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {994, 589}}";
+			sepNavSelRange = "{755, 0}";
+			sepNavVisRange = "{0, 1148}";
+		};
+	};
+	04A75631119DD1F100FF4D29 /* KalaGameState.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1054, 5278}}";
+			sepNavSelRange = "{204, 63}";
+			sepNavVisRange = "{36, 1042}";
+		};
+	};
+	04A75632119DD1F100FF4D29 /* RandomPlayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1054, 594}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 288}";
+		};
+	};
+	04A75633119DD1F100FF4D29 /* RandomPlayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {630, 798}}";
+			sepNavSelRange = "{658, 0}";
+			sepNavVisRange = "{0, 658}";
+		};
+	};
+	04DBCBE811A754AB0001D01E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 04A75633119DD1F100FF4D29 /* RandomPlayer.m */;
+		name = "RandomPlayer.m: 45";
+		rLen = 0;
+		rLoc = 658;
+		rType = 0;
+		vrLen = 658;
+		vrLoc = 0;
+	};
+	04DD1E7311AEF15F00ADC20F /* Options.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1054, 594}}";
+			sepNavSelRange = "{164, 0}";
+			sepNavVisRange = "{0, 264}";
+		};
+	};
+	04DD1E7411AEF15F00ADC20F /* Options.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 2288}}";
+			sepNavSelRange = "{1381, 180}";
+			sepNavVisRange = "{995, 1607}";
+		};
+	};
+	04DD1E8311AEF18800ADC20F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Kalah_iPadAppDelegate.m */;
+		name = "Kalah_iPadAppDelegate.m: 28";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 0;
+	};
+	1D3623240D0F684500981E51 /* Kalah_iPadAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1292, 770}}";
+			sepNavSelRange = "{507, 0}";
+			sepNavVisRange = "{0, 514}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Kalah_iPadAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 828}}";
+			sepNavSelRange = "{713, 0}";
+			sepNavVisRange = "{0, 1159}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Kalah-iPad */ = {
+		activeExec = 0;
+		executables = (
+			04A75613119DD19500FF4D29 /* Kalah-iPad */,
+		);
+	};
+	28042007108E984D000629CD /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1054, 594}}";
+			sepNavSelRange = "{344, 0}";
+			sepNavVisRange = "{0, 607}";
+		};
+	};
+	28042008108E984D000629CD /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1054, 1690}}";
+			sepNavSelRange = "{896, 0}";
+			sepNavVisRange = "{0, 1014}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 04A75613119DD19500FF4D29 /* Kalah-iPad */;
+		activeSDKPreference = iphonesimulator3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Kalah-iPad */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Kalah-iPad */,
+		);
+		codeSenseManager = 04A75627119DD1A100FF4D29 /* Code sense */;
+		executables = (
+			04A75613119DD19500FF4D29 /* Kalah-iPad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					816,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 299363316;
+			PBXWorkspaceStateSaveDate = 299363316;
+		};
+		perUserProjectItems = {
+			0402732911A99CB900F28535 /* PBXBookmark */ = 0402732911A99CB900F28535 /* PBXBookmark */;
+			0402732A11A99CB900F28535 /* PBXBookmark */ = 0402732A11A99CB900F28535 /* PBXBookmark */;
+			0402FF9711CCD1360011C0FA /* PBXTextBookmark */ = 0402FF9711CCD1360011C0FA /* PBXTextBookmark */;
+			0402FF9A11CCD1360011C0FA /* PBXTextBookmark */ = 0402FF9A11CCD1360011C0FA /* PBXTextBookmark */;
+			0402FFA011CCD29B0011C0FA /* PBXTextBookmark */ = 0402FFA011CCD29B0011C0FA /* PBXTextBookmark */;
+			0402FFA111CCD29B0011C0FA /* PBXTextBookmark */ = 0402FFA111CCD29B0011C0FA /* PBXTextBookmark */;
+			0402FFA211CCD29B0011C0FA /* PBXTextBookmark */ = 0402FFA211CCD29B0011C0FA /* PBXTextBookmark */;
+			0402FFA311CCD29B0011C0FA /* PBXTextBookmark */ = 0402FFA311CCD29B0011C0FA /* PBXTextBookmark */;
+			0402FFA411CCD29B0011C0FA /* PBXTextBookmark */ = 0402FFA411CCD29B0011C0FA /* PBXTextBookmark */;
+			0402FFA511CCD29B0011C0FA /* PBXTextBookmark */ = 0402FFA511CCD29B0011C0FA /* PBXTextBookmark */;
+			0402FFA611CCD29B0011C0FA /* PBXTextBookmark */ = 0402FFA611CCD29B0011C0FA /* PBXTextBookmark */;
+			04618E8311D7EC3E008DCFA8 /* PBXTextBookmark */ = 04618E8311D7EC3E008DCFA8 /* PBXTextBookmark */;
+			04618E8411D7EC3E008DCFA8 /* PBXTextBookmark */ = 04618E8411D7EC3E008DCFA8 /* PBXTextBookmark */;
+			046F77F2119DE06D000DD634 /* PBXTextBookmark */ = 046F77F2119DE06D000DD634 /* PBXTextBookmark */;
+			048A3FDC11AFD677002898F8 /* PBXTextBookmark */ = 048A3FDC11AFD677002898F8 /* PBXTextBookmark */;
+			048A3FE411AFD6C3002898F8 /* PBXTextBookmark */ = 048A3FE411AFD6C3002898F8 /* PBXTextBookmark */;
+			049CDC6911AC3C4D00172C65 /* PlistBookmark */ = 049CDC6911AC3C4D00172C65 /* PlistBookmark */;
+			049CDCBF11AC439500172C65 /* PBXTextBookmark */ = 049CDCBF11AC439500172C65 /* PBXTextBookmark */;
+			04DBCBE811A754AB0001D01E /* PBXTextBookmark */ = 04DBCBE811A754AB0001D01E /* PBXTextBookmark */;
+			04DD1E8311AEF18800ADC20F /* PBXTextBookmark */ = 04DD1E8311AEF18800ADC20F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 04A75626119DD1A100FF4D29 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Kalah_iPad-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{79, 265}, {897, 722}}";
+		};
+	};
+}
