@@ -45,7 +45,7 @@
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIImageView" id="441350736">
+					<object class="IBUIImageView" id="436766436">
 						<reference key="NSNextResponder" ref="647120888"/>
 						<int key="NSvFlags">256</int>
 						<string key="NSFrameSize">{1024, 1024}</string>
@@ -109,22 +109,22 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<object class="NSFont" key="IBUIFont" id="656281178">
+						<object class="NSFont" key="IBUIFont" id="463097888">
 							<string key="NSName">Helvetica-Bold</string>
 							<double key="NSSize">48</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<string key="IBUITitleShadowOffset">{0, 1}</string>
 						<string key="IBUINormalTitle">Single Player</string>
-						<object class="NSColor" key="IBUIHighlightedTitleColor" id="33107367">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MQA</bytes>
+						<object class="NSColor" key="IBUIHighlightedTitleColor" id="1055770559">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4xOTM4Nzc1NTEgMC4wODQxMjUwMjQwNSAwLjAwMzY3NzU5NDMyMwA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleColor" id="263535535">
+						<object class="NSColor" key="IBUINormalTitleColor" id="110527772">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC40MTMyNjUzMDYxIDAuMTc0OTQ1ODg0MSAwLjAwMzU5MTExNjA3MwA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleShadowColor" id="95691843">
+						<object class="NSColor" key="IBUINormalTitleShadowColor" id="803154016">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC45Mzg3NzU1MTAyIDAuNzMzMTUwNzU5OCAwLjQwNTM4MDMzNAA</bytes>
 						</object>
@@ -140,18 +140,18 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<reference key="IBUIFont" ref="656281178"/>
+						<reference key="IBUIFont" ref="463097888"/>
 						<string key="IBUITitleShadowOffset">{0, 1}</string>
 						<string key="IBUINormalTitle">Multiplayer</string>
-						<reference key="IBUIHighlightedTitleColor" ref="33107367"/>
-						<reference key="IBUINormalTitleColor" ref="263535535"/>
-						<reference key="IBUINormalTitleShadowColor" ref="95691843"/>
+						<reference key="IBUIHighlightedTitleColor" ref="1055770559"/>
+						<reference key="IBUINormalTitleColor" ref="110527772"/>
+						<reference key="IBUINormalTitleShadowColor" ref="803154016"/>
 					</object>
 				</object>
 				<string key="NSFrame">{{0, 64}, {768, 960}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="441350736"/>
+				<reference key="NSNextKeyView" ref="436766436"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -266,7 +266,7 @@
 							<reference ref="678529572"/>
 							<reference ref="873451758"/>
 							<reference ref="127761796"/>
-							<reference ref="441350736"/>
+							<reference ref="436766436"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -297,7 +297,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">99</int>
-						<reference key="object" ref="441350736"/>
+						<reference key="object" ref="436766436"/>
 						<reference key="parent" ref="647120888"/>
 					</object>
 				</object>
@@ -313,7 +313,9 @@
 					<string>8.IBPluginDependency</string>
 					<string>87.IBPluginDependency</string>
 					<string>90.IBPluginDependency</string>
+					<string>90.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>91.IBPluginDependency</string>
+					<string>91.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>94.IBPluginDependency</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
@@ -325,7 +327,9 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="1"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="1"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
