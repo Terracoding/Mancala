@@ -45,12 +45,13 @@
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIImageView" id="712270005">
+					<object class="IBUIImageView" id="441350736">
 						<reference key="NSNextResponder" ref="647120888"/>
 						<int key="NSvFlags">256</int>
 						<string key="NSFrameSize">{1024, 1024}</string>
 						<reference key="NSSuperview" ref="647120888"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="678529572"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">4</int>
@@ -108,26 +109,24 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<object class="NSFont" key="IBUIFont" id="1053848295">
+						<object class="NSFont" key="IBUIFont" id="656281178">
 							<string key="NSName">Helvetica-Bold</string>
-							<double key="NSSize">15</double>
+							<double key="NSSize">48</double>
 							<int key="NSfFlags">16</int>
 						</object>
+						<string key="IBUITitleShadowOffset">{0, 1}</string>
+						<string key="IBUINormalTitle">Single Player</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="33107367">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleColor">
+						<object class="NSColor" key="IBUINormalTitleColor" id="263535535">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+							<bytes key="NSRGB">MC40MTMyNjUzMDYxIDAuMTc0OTQ1ODg0MSAwLjAwMzU5MTExNjA3MwA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleShadowColor" id="605305005">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MC41AA</bytes>
-						</object>
-						<object class="NSCustomResource" key="IBUINormalImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">SinglePlayerButton.png</string>
+						<object class="NSColor" key="IBUINormalTitleShadowColor" id="95691843">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC45Mzg3NzU1MTAyIDAuNzMzMTUwNzU5OCAwLjQwNTM4MDMzNAA</bytes>
 						</object>
 					</object>
 					<object class="IBUIButton" id="127761796">
@@ -141,23 +140,18 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<reference key="IBUIFont" ref="1053848295"/>
+						<reference key="IBUIFont" ref="656281178"/>
+						<string key="IBUITitleShadowOffset">{0, 1}</string>
+						<string key="IBUINormalTitle">Multiplayer</string>
 						<reference key="IBUIHighlightedTitleColor" ref="33107367"/>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="605305005"/>
-						<object class="NSCustomResource" key="IBUINormalImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">MultiPlayerButton.png</string>
-						</object>
+						<reference key="IBUINormalTitleColor" ref="263535535"/>
+						<reference key="IBUINormalTitleShadowColor" ref="95691843"/>
 					</object>
 				</object>
 				<string key="NSFrame">{{0, 64}, {768, 960}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="678529572"/>
+				<reference key="NSNextKeyView" ref="441350736"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -272,7 +266,7 @@
 							<reference ref="678529572"/>
 							<reference ref="873451758"/>
 							<reference ref="127761796"/>
-							<reference ref="712270005"/>
+							<reference ref="441350736"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -303,7 +297,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">99</int>
-						<reference key="object" ref="712270005"/>
+						<reference key="object" ref="441350736"/>
 						<reference key="parent" ref="647120888"/>
 					</object>
 				</object>
@@ -453,19 +447,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<bool key="EncodedWithXMLCoder">YES</bool>
-			<object class="NSArray" key="dict.sortedKeys">
-				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>MultiPlayerButton.png</string>
-				<string>SinglePlayerButton.png</string>
-				<string>board.png</string>
-			</object>
-			<object class="NSMutableArray" key="dict.values">
-				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{479, 105}</string>
-				<string>{479, 105}</string>
-				<string>{1024, 1024}</string>
-			</object>
+			<string key="NS.key.0">board.png</string>
+			<string key="NS.object.0">{1024, 1024}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">301</string>
 	</data>
