@@ -303,12 +303,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dominic Wroblewski";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Kalah_iPad_Prefix.pch;
 				INFOPLIST_FILE = "Kalah_iPad-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "Kalah-iPad";
+				PROVISIONING_PROFILE = "736F60E9-BC29-4B14-A140-DB44B280C53D";
 				SDKROOT = iphoneos4.3;
 				VALIDATE_PRODUCT = YES;
 			};
