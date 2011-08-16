@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "KalaGameState.h"
 
-@interface RandomPlayer : NSObject {}
+@interface RandomPlayer : NSObject
 
 - (int)chooseMove:(KalaGameState *)gs;
 

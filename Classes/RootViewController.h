@@ -8,21 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController <UIPopoverControllerDelegate> {
-
-	IBOutlet UIBarButtonItem	*optionsButton;
-	IBOutlet UIBarButtonItem	*helpButton;
-	UIPopoverController			*popOver;
-	
+@interface RootViewController : UIViewController <UIPopoverControllerDelegate>
+{
+	IBOutlet UIBarButtonItem    * optionsButton;
+	IBOutlet UIBarButtonItem    * helpButton;
+	UIPopoverController         * popOver;
 }
 
--(void)closePopover;
+- (void)closePopover;
+- (IBAction)playSingle:(id)sender;
+- (IBAction)playMulti:(id)sender;
+- (IBAction)showHelp:(id)sender;
+- (IBAction)showOptions:(id)sender;
 
--(IBAction)playSingle:(id)sender;
--(IBAction)playMulti:(id)sender;
--(IBAction)showHelp:(id)sender;
--(IBAction)showOptions:(id)sender;
-
-@property (nonatomic, retain) UIPopoverController *popOver;
+@property (nonatomic, retain) UIPopoverController * popOver;
 
 @end

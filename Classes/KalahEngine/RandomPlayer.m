@@ -10,20 +10,20 @@
 
 @implementation RandomPlayer
 
-- (int)chooseMove:(KalaGameState *)gs {
+- (int)chooseMove:(KalaGameState *)gs
+{
 	
-	if(gs.gameOver){
+	if (gs.gameOver) {
 		return -1;
-	}else{
-    	
+	} else {
 		int			value;
 		BOOL		running = true;
 		
 		while (running) {
 			value = (arc4random() % 6) + 1;
-			if([gs getNumStones:value] > 0){
+			if ([gs getNumStones:value] > 0) {
 				running = false;
-			}else{
+			} else {
 				running = true;
 			}
 		}

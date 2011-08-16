@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Options : UITableViewController {
-	
+@interface Options : UITableViewController
+{
 	NSArray *sectionsArray;
 	NSArray *array;
-
 }
 
 @end

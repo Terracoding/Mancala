@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface Help : UITableViewController {
-	 
-
+@interface Help : UITableViewController
+{
+  
 }
 
 @end

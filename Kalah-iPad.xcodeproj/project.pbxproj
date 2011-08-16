@@ -31,6 +31,8 @@
 		2804203C108E9BAB000629CD /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2804203B108E9BAB000629CD /* RootViewController.xib */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		57D8B04913FA665B001241AD /* NavBar-iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D8B04813FA665B001241AD /* NavBar-iPhone.png */; };
+		57D8B04C13FA666A001241AD /* DWNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D8B04B13FA666A001241AD /* DWNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,9 @@
 		28A0AAE50D9B0CCF005BE974 /* Kalah_iPad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kalah_iPad_Prefix.pch; sourceTree = "<group>"; };
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57D8B04813FA665B001241AD /* NavBar-iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBar-iPhone.png"; sourceTree = "<group>"; };
+		57D8B04A13FA666A001241AD /* DWNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNavigationBar.h; sourceTree = "<group>"; };
+		57D8B04B13FA666A001241AD /* DWNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationBar.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Kalah_iPad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Kalah_iPad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +96,7 @@
 				04DD1F8A11AF03A800ADC20F /* MultiPlayerButton.png */,
 				04DD1F8B11AF03A800ADC20F /* SinglePlayerButton.png */,
 				0402732211A99ADD00F28535 /* pit.png */,
+				57D8B04813FA665B001241AD /* NavBar-iPhone.png */,
 				0402731F11A998BA00F28535 /* board.png */,
 				04DBCBFF11A75A630001D01E /* game_bg.png */,
 			);
@@ -124,6 +130,8 @@
 				04DD1E7411AEF15F00ADC20F /* Options.m */,
 				048A3FB411AFD4FE002898F8 /* Help.h */,
 				048A3FB511AFD4FE002898F8 /* Help.m */,
+				57D8B04A13FA666A001241AD /* DWNavigationBar.h */,
+				57D8B04B13FA666A001241AD /* DWNavigationBar.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -248,6 +256,7 @@
 				04DD1F8C11AF03A800ADC20F /* MultiPlayerButton.png in Resources */,
 				04DD1F8D11AF03A800ADC20F /* SinglePlayerButton.png in Resources */,
 				048A3FB811AFD4FE002898F8 /* Help.xib in Resources */,
+				57D8B04913FA665B001241AD /* NavBar-iPhone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +276,7 @@
 				049CDC9911AC41B600172C65 /* MultiPlayerGame.m in Sources */,
 				04DD1E7611AEF15F00ADC20F /* Options.m in Sources */,
 				048A3FB711AFD4FE002898F8 /* Help.m in Sources */,
+				57D8B04C13FA666A001241AD /* DWNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

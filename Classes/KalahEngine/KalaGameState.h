@@ -18,7 +18,7 @@
 	
 	NSMutableArray			*pitsA;
 	NSMutableArray			*pitsB;
-	
+
 }
 
 - (KalaGameState *)initWithStartingStones:(int)startingStones;

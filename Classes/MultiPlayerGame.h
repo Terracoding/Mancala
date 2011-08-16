@@ -10,10 +10,10 @@
 #import "KalaGameState.h"
 
 
-@interface MultiPlayerGame : UIViewController {
-	
+@interface MultiPlayerGame : UIViewController
+{
 	KalaGameState				*game;
-	
+
 	IBOutlet UIButton			*a1, *a2, *a3, *a4, *a5, *a6;
 	IBOutlet UIButton			*b1, *b2, *b3, *b4, *b5, *b6;
 	IBOutlet UIButton			*nextTurnButton;
@@ -26,7 +26,6 @@
 	
 	NSMutableArray				*p1A;
 	NSMutableArray				*p2A;
-
 }
 
 
