@@ -64,33 +64,33 @@
 	
 }
 
+- (void)getStonesAndUpdate
+{
+  NSMutableArray *t = [[NSMutableArray alloc] initWithCapacity:6];
+  NSMutableArray *u = [[NSMutableArray alloc] initWithCapacity:6];
+  for (int i=0; i<6; i++) {
+    int b = i + 1;
+    [t insertObject:[NSNumber numberWithInt:[game getNumStones:b player:0]] atIndex:i];
+    [u insertObject:[NSNumber numberWithInt:[game getNumStones:b player:1]] atIndex:i];
+  }
+  [self updatePitsA:t pitsB:u];
+}
+
 - (void)playComputer
 {
 	if (![game gameOver]) {
 		
 		while ([game getTurn] == 1) {
 			[game makeMove:[play2 chooseMove:game]];
-			
-			NSMutableArray *t = [[NSMutableArray alloc] initWithCapacity:6];
-			NSMutableArray *u = [[NSMutableArray alloc] initWithCapacity:6];
-			
-			for(int i=0; i<6; i++){
-				
-				int b = i + 1;
-				
-				[t insertObject:[NSNumber numberWithInt:[game getNumStones:b player:0]] atIndex:i];
-				[u insertObject:[NSNumber numberWithInt:[game getNumStones:b player:1]] atIndex:i];
-				
-			}
-			
+      
+			[self getStonesAndUpdate];
+      
 			[a1 setEnabled:TRUE];
 			[a2 setEnabled:TRUE];
 			[a3 setEnabled:TRUE];
 			[a4 setEnabled:TRUE];
 			[a5 setEnabled:TRUE];
 			[a6 setEnabled:TRUE];
-			
-			[self updatePitsA:t pitsB:u];
 			
 			[self updateKalaA:[game getKala:0] KalaB:[game getKala:1]];
 			
@@ -120,7 +120,11 @@
 
 	[nextTurnButton removeFromSuperview];
 
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over" message:[NSString stringWithFormat:@"Final score = You %i - %i Computer", [game getScore:0], [game getScore:1]] delegate:self cancelButtonTitle:nil otherButtonTitles:@"Okay", nil];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over" 
+                                                  message:[NSString stringWithFormat:@"Final score = You %i - %i Computer", [game getScore:0], [game getScore:1]] 
+                                                 delegate:self 
+                                        cancelButtonTitle:nil 
+                                        otherButtonTitles:@"Okay", nil];
 	[alert show];
   [alert release];
 }
@@ -155,7 +159,7 @@
 		[b6 setTitle:[NSString stringWithFormat:@"%i", [[b objectAtIndex:5] intValue]] forState:UIControlStateSelected];
 		
 		
-		if([[a objectAtIndex:i] intValue] == 0) {
+		if ([[a objectAtIndex:i] intValue] == 0) {
 			switch (i) {
 				case 0:
 					[a1 setEnabled:NO];

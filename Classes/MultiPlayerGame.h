@@ -12,23 +12,21 @@
 
 @interface MultiPlayerGame : UIViewController
 {
-	KalaGameState				*game;
+	KalaGameState         * game;
 
-	IBOutlet UIButton			*a1, *a2, *a3, *a4, *a5, *a6;
-	IBOutlet UIButton			*b1, *b2, *b3, *b4, *b5, *b6;
-	IBOutlet UIButton			*nextTurnButton;
-	IBOutlet UILabel			*p1;
-	IBOutlet UILabel			*p2;
+	IBOutlet UIButton			* a1, *a2, *a3, *a4, *a5, *a6;
+	IBOutlet UIButton			* b1, *b2, *b3, *b4, *b5, *b6;
+	IBOutlet UIButton			* nextTurnButton;
+	IBOutlet UILabel			* p1;
+	IBOutlet UILabel			* p2;
 	
-	int							startingStones;
-	int							selectedPit;	
-	BOOL						playing;
+	int                     startingStones;
+	int                     selectedPit;	
+	BOOL                    playing;
 	
-	NSMutableArray				*p1A;
-	NSMutableArray				*p2A;
+	NSMutableArray				* p1A;
+	NSMutableArray				* p2A;
 }
-
-
 
 - (void)updateKalaA:(int)a KalaB:(int)b;
 - (void)updatePitsA:(NSMutableArray *)a pitsB:(NSMutableArray *)b;
