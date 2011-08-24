@@ -1,4 +1,12 @@
-
+Kalah-iPad.xcodeproj/epigenesys.pbxuser
+*.pbxuser
+*.mode1v2
+Kalah-iPad.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/*
+Kalah-iPad.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad
+*.mode1v3
+Kalah-iPad.xcodeproj/epigenesys.mode1v3
 Kalah-iPad.xcodeproj/project.xcworkspace/xcuserdata/Mac.xcuserdatad/UserInterfaceState.xcuserstate
+
+Kalah-iPad.xcodeproj/project.xcworkspace/xcuserdata/epigenesys.xcuserdatad/UserInterfaceState.xcuserstate
 
 Kalah-iPad.xcodeproj/project.xcworkspace/xcuserdata/epigenesys.xcuserdatad/UserInterfaceState.xcuserstate

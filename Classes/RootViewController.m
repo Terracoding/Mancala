@@ -45,14 +45,24 @@
 - (IBAction)showHelp:(id)sender
 {
 	Help * help = [[Help alloc] initWithNibName:@"Help" bundle:nil];
-  [self presentPopOver:help fromButton:helpButton];
+  if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+    [self presentPopOver:help fromButton:helpButton];
+  }
+  else {
+    [self.navigationController pushViewController:help animated:YES];
+  }
   [help release];
 }
 
 - (IBAction)showOptions:(id)sender
 {
 	Options * options = [[Options alloc] initWithNibName:@"Options" bundle:nil];
-  [self presentPopOver:options fromButton:optionsButton];
+  if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+    [self presentPopOver:options fromButton:optionsButton];
+  }
+  else {
+    [self.navigationController pushViewController:options animated:YES];
+  }
   [options release];
 }
 
